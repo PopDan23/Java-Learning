@@ -1,0 +1,74 @@
+Example 1)
+In this example, we have a Student class with three private fields: name, id, and courses.
+The courses field is a list of strings that represents the courses that the student is enrolled in.
+These fields are encapsulated, meaning that they cannot be accessed directly from outside the class.
+Instead, we provide public getter and setter methods that allow other classes to access and modify the values of these fields in a controlled manner.
+
+The getter methods getName and getId return the current values of the name and id fields, respectively.
+The getter method getCourses returns a copy of the courses list, so that other classes cannot modify the list directly.
+Instead, we provide public methods addCourse and removeCourse that allow other classes to add or remove courses from the student's list of enrolled courses.
+By encapsulating the fields in this way, we can ensure that the values of name, id,
+
+public class Student {
+    private String name;
+    private int id;
+    private List<String> courses;
+
+    public Student(String name, int id) {
+        this.name = name;
+        this.id = id;
+        this.courses = new ArrayList<>();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public List<String> getCourses() {
+        return courses;
+    }
+
+    public void addCourse(String course) {
+        courses.add(course);
+    }
+
+    public void removeCourse(String course) {
+        courses.remove(course);
+    }
+}
+
+Example 2)
+
+This check ensures that the salary field is never set to a negative value, which would be an invalid state for an Employee object.
+
+public void setSalary(double salary) {
+    if (salary >= 0) {
+        this.salary = salary;
+    } else {
+        throw new IllegalArgumentException("Salary must be a positive number.");
+    }
+}
+
+Example 3)
+
+The get method returns the value of the variable name.
+
+The set method takes a parameter (newName) and assigns it to the name variable. The this keyword is used to refer to the current object.
+
+public class Person {
+  private String name; // private = restricted access
+
+  // Getter
+  public String getName() {
+    return name;
+  }
+
+  // Setter
+  public void setName(String newName) {
+    this.name = newName;
+  }
+}

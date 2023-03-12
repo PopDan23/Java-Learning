@@ -1,0 +1,211 @@
+= Java Doc for learning to test Selenium with Java - March 2023
+
+== *1.Revision table:*
+// First day -> learning from https://www.softwaretestingmentor.com/java-for-testers-2-what-is-java-classes-and-objects/
+//SDK 19 pt Java oracle,
+//https://www.tutorialspoint.com/java/index.htm for tutorials
+
+
+[width="100%",cols="19%,20%,14%,47%",options="header",]
+|===
+|Version 0.1|Date 12/3/2023 |Author Popescu Dan|Change 0.01
+|1 |12.3.2023 |Dan |Initial version
+|2 |TBC |Dan |Changes to the structure
+|3 |TBC |Dan |Final Version
+|===
+
+== *2.Project description:*
+
+A project about my jorney to learn Java with aplication in Selenium for Testing purposes;
+It started in March 2023 and as a
+
+1) Learning about Java first, after that some projects with links here:
+
+== *3.Contant table:*
+
+=== 3.1) Key features of OOP;
+==== a) Encapsulation
+==== b) Inheritance
+==== c) Polymorphism
+==== d) Abstraction
+
+=== 3.2) Learning about Selenium;
+
+=== 3.3) Integrate Java Codes for automating testing to Selenium;
+
+== Figure 1 - Java Class
+
+image::/images/javaclassimg.jpg[image, align=center , height= , width=450]
+
+ In OOP, a class is a blueprint or template for creating objects.
+ It defines the properties and behavior of objects of that class.
+ Objects can interact with each other through methods,
+ which are functions defined within a class that can be called on objects of that class.
+
+Figure 2 - Example of Object and Class
+
+image::/images/oopclass.jpg[image, align=center , height= , width=350]
+
+
+====
+
+3.1) Key features of OOP :
+
+a) Encapsulation
+
+b) Inheritance
+
+c) Polymorphism
+
+d) Abstraction
+
+====
+
+link:#
+
+3.2) Learning about Selenium
+
+link:#
+
+3.3)Integrate Java Codes for automating testing to Selenium:
+
+link:#
+
+
+Learning about class and obj in Java
+
+
+=== 3.1) a) Encapsulation
+//From Web3: https://www.w3schools.com/java/java_encapsulation.asp
+
+The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+
+declare class variables/attributes as private
+provide public get and set methods to access and update the value of a private variable
+
+For a QA Engineer, encapsulation is important because it helps ensure that the code is more robust and easier to maintain. By encapsulating the internal data of an object, the code becomes more modular, and changes to one part of the code are less likely to affect other parts of the code.
+
+This can make it easier to test the code and to identify and fix bugs.
+
+To achieve encapsulation in Java:
+
+ - Declare the variables of a class as private.
+
+- Provide public setter and getter methods to modify and view the variables values.
+
+image::/images/encapsul.jpg[image, align=center , height= , width=300]
+
+`` Example 1 - Encapsulation ``
+
+Following is an example that demonstrates how to achieve Encapsulation in Java
+[source,java]
+----
+/* File name : EncapTest.java */
+public class EncapTest {
+   private String name;
+   private String idNum;
+   private int age;
+
+   public int getAge() {
+      return age;
+   }
+
+   public String getName() {
+      return name;
+   }
+
+   public String getIdNum() {
+      return idNum;
+   }
+
+   public void setAge( int newAge) {
+      age = newAge;
+   }
+
+   public void setName(String newName) {
+      name = newName;
+   }
+
+   public void setIdNum( String newId) {
+      idNum = newId;
+   }
+}
+----
+
+The variables of the EncapTest class can be accessed using the following program −
+
+[source,java]
+----
+/* File name : RunEncap.java */
+public class RunEncap {
+
+   public static void main(String args[]) {
+      EncapTest encap = new EncapTest();
+      encap.setName("James");
+      encap.setAge(20);
+      encap.setIdNum("12343ms");
+
+      System.out.print("Name : " + encap.getName() + " Age : " + encap.getAge());
+   }
+}
+----
+
+Output:
+[souce,java]
+----
+Name : James Age : 20
+----
+
+=== 3.1)  b) Inheritance
+
+In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
+
+- subclass (child) - the class that inherits from another class
+- superclass (parent) - the class being inherited from
+To inherit from a class, use the extends keyword.
+
+In the example below, the Car class (subclass) inherits the attributes and methods from the Vehicle class (superclass):
+
+`` Example 1 - Inheritance``
+[source,java]
+----
+class Vehicle {
+  protected String brand = "Ford";        // Vehicle attribute
+  public void honk() {                    // Vehicle method
+    System.out.println("Tuut, tuut!");
+  }
+}
+
+class Car extends Vehicle {
+  private String modelName = "Mustang";    // Car attribute
+  public static void main(String[] args) {
+
+    // Create a myCar object
+    Car myCar = new Car();
+
+    // Call the honk() method (from the Vehicle class) on the myCar object
+    myCar.honk();
+
+    // Display the value of the brand attribute (from the Vehicle class) and the value of the modelName from the Car class
+    System.out.println(myCar.brand + " " + myCar.modelName);
+  }
+}
+----
+
+image::/images/inheritance.jpg[image, align=center , height= , width=300]
+3.1)
+
+c) Polymorphism
+
+image::/images/polymorph.jpg[image, align=center , height= , width=300]
+3.1)
+
+d) Abstraction
+
+image::/images/abstraction.jpg[image, align=center , height= , width=300]
+
+
+
+
+
+
