@@ -35,7 +35,7 @@ It started in March 2023 and as a
 
 == Figure 1 - Java Class
 
-image::/images/javaclassimg.jpg[image, align=center , height= , width=450]
+image::.idea/images/javaclassimg.jpg[image, align=center , height= , width=450]
 
  In OOP, a class is a blueprint or template for creating objects.
  It defines the properties and behavior of objects of that class.
@@ -44,7 +44,7 @@ image::/images/javaclassimg.jpg[image, align=center , height= , width=450]
 
 Figure 2 - Example of Object and Class
 
-image::/images/oopclass.jpg[image, align=center , height= , width=350]
+image::.idea/images/oopclass.jpg[image, align=center , height= , width=350]
 
 
 ====
@@ -93,7 +93,7 @@ To achieve encapsulation in Java:
 
 - Provide public setter and getter methods to modify and view the variables values.
 
-image::/images/encapsul.jpg[image, align=center , height= , width=300]
+image::.idea/images/encapsul.jpg[image, align=center , height= , width=300]
 
 `` Example 1 - Encapsulation ``
 
@@ -192,17 +192,17 @@ class Car extends Vehicle {
 }
 ----
 
-image::/images/inheritance.jpg[image, align=center , height= , width=300]
+image::.idea/images/inheritance.jpg[image, align=center , height= , width=300]
 3.1)
 
 c) Polymorphism
 
-image::/images/polymorph.jpg[image, align=center , height= , width=300]
+image::.idea/images/polymorph.jpg[image, align=center , height= , width=300]
 3.1)
 
 d) Abstraction
 
-image::/images/abstraction.jpg[image, align=center , height= , width=300]
+image::.idea/images/abstraction.jpg[image, align=center , height= , width=300]
 
 
 
