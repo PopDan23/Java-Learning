@@ -10,7 +10,7 @@
 |===
 |Version 0.1|Date 12/3/2023 |Author Popescu Dan|Change 0.01
 |1 |12.3.2023 |Dan |Initial version
-|2 |TBC |Dan |Changes to the structure
+|2 |13.3.2023|Dan |Changes to the structure - added all 4 major Key features of OOP
 |3 |TBC |Dan |Final Version
 |===
 
@@ -24,10 +24,13 @@ It started in March 2023 and as a
 == *3.Contant table:*
 
 === 3.1) Key features of OOP;
-==== a) Encapsulation
-==== b) Inheritance
-==== c) Polymorphism
-==== d) Abstraction
+==== link:#Encapsulation[a)Encapsulation]
+
+====  link:#Inheritance[b)Inheritance]
+
+====  link:#Polymorphism[c)Polymorphism]
+
+====  link:#Abstraction[d)Abstraction]
 
 === 3.2) Learning about Selenium;
 
@@ -74,8 +77,10 @@ link:#
 
 Learning about class and obj in Java
 
+[#Encapsulation]
 
-=== 3.1) a) Encapsulation
+=== 3.1)a) Encapsulation
+
 //From Web3: https://www.w3schools.com/java/java_encapsulation.asp
 
 The meaning of Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
@@ -155,8 +160,10 @@ Output:
 ----
 Name : James Age : 20
 ----
+[#Inheritance]
 
 === 3.1)  b) Inheritance
+
 
 In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 
@@ -193,9 +200,10 @@ class Car extends Vehicle {
 ----
 
 image::.idea/images/inheritance.jpg[image, align=center , height= , width=300]
-3.1)
 
-c) Polymorphism
+[#Polymorphism]
+
+3.1) c) Polymorphism
 
 Polymorphism means "many forms", and it occurs when we have many classes that are related to each other by inheritance. Like we specified in the previous chapter; Inheritance lets us inherit attributes and methods from another class.
 Polymorphism uses those methods to perform different tasks. This allows us to perform a single action in different ways.
@@ -261,7 +269,10 @@ class Main {
 
 image::.idea/images/polymorph.jpg[image, align=center , height= , width=300]
 
+[#Abstraction]
+
 3.1) d) Abstraction
+
 
 Data abstraction is the process of hiding certain details and showing only essential information to the user.
 Abstraction can be achieved with either abstract classes or interfaces (which you will learn more about in the next chapter).
