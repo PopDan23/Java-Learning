@@ -370,8 +370,10 @@ Software Testing is a method to check whether the actual software product matche
 - Types of testing in general
 
 - What is Static Testing + examples
+
 [#Static]
 Static Testing
+
 
 Static Testing is a type of software testing in which software application is tested without code execution. Manual or automated reviews of code, requirement documents and document design are done in order to find the errors. The main objective of static testing is to improve the quality of software applications by finding errors in early stages of software development process.
 
