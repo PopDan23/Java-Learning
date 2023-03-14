@@ -1,10 +1,12 @@
 = Java Doc for learning to test Selenium with Java - March 2023
 
 == *1.Revision table:*
+
 // First day -> learning from https://www.softwaretestingmentor.com/java-for-testers-2-what-is-java-classes-and-objects/
 //SDK 19 pt Java oracle,
 //https://www.tutorialspoint.com/java/index.htm for tutorials
-
+// https://reqres.in/ to test API
+//https://getsharex.com/ for screening and other capture img
 
 [width="100%",cols="19%,20%,14%,47%",options="header",]
 |===
