@@ -370,6 +370,8 @@ Software Testing is a method to check whether the actual software product matche
 - Types of testing in general
 
 - What is Static Testing + examples
+[#Static]
+Static Testing
 
 Static Testing is a type of software testing in which software application is tested without code execution. Manual or automated reviews of code, requirement documents and document design are done in order to find the errors. The main objective of static testing is to improve the quality of software applications by finding errors in early stages of software development process.
 
@@ -385,10 +387,10 @@ Test Scripts
 Help or User document
 Web Page content
 
-[text, bold]
+
 
 Static Testing Techniques
-[/text]
+
 
 Informal Reviews: This is one of the type of review which doesn’t follow any process to find errors in the document. Under this technique, you just review the document and give informal comments on it.
 
@@ -410,10 +412,18 @@ Static code Review: This is a systematic review of the software source code with
 [#Dynamic]
 Dynamic Testing
 
+Under Dynamic Testing, a code is executed.
 
+Dynamic testing executes the software and validates the output with the expected outcome. Dynamic testing is performed at all levels of testing and it can be either black or white box testing.
 
-[#Static]
-Static Testing
+Dynamic Testing Techniques
+
+Static Testing Vs Dynamic Testing
+
+Unit Testing: Under Unit Testing, individual units or modules are tested by the developers. It involves testing of source code by developers.
+
+Integration Testing: Individual modules are grouped together and tested by the developers. The purpose is to determine what modules are working as expected once they are integrated.
+System Testing: System Testing is performed on the whole system by checking whether the system or application meets the requirement specification document.
 
 
 
