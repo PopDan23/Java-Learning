@@ -421,7 +421,7 @@ Dynamic testing executes the software and validates the output with the expected
 
 [Big Chartreuse Blue-background]*Dynamic Testing Techniques*
 
-[]Static Testing Vs Dynamic Testing
+[big red black-background]*Static Testing Vs Dynamic Testing*
 
 Unit Testing: Under Unit Testing, individual units or modules are tested by the developers. It involves testing of source code by developers.
 
