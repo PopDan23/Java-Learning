@@ -411,17 +411,17 @@ Static code Review: This is a systematic review of the software source code with
 
 
 
-
 [#Dynamic]
-Dynamic Testing
+
+[big lime white-background]*Dynamic Testing*
 
 Under Dynamic Testing, a code is executed.
 
 Dynamic testing executes the software and validates the output with the expected outcome. Dynamic testing is performed at all levels of testing and it can be either black or white box testing.
 
-Dynamic Testing Techniques
+[Big Chartreuse Blue-background]*Dynamic Testing Techniques*
 
-Static Testing Vs Dynamic Testing
+[]Static Testing Vs Dynamic Testing
 
 Unit Testing: Under Unit Testing, individual units or modules are tested by the developers. It involves testing of source code by developers.
 
