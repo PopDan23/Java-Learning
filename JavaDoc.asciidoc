@@ -7,6 +7,7 @@
 //https://www.tutorialspoint.com/java/index.htm for tutorials
 // https://reqres.in/ to test API
 //https://getsharex.com/ for screening and other capture img
+//Formating text https://asciidoc-py.github.io/chunked/ch10.html to help(in HTML)
 //
 
 [width="100%",cols="19%,20%,14%,47%",options="header",]
@@ -372,7 +373,7 @@ Software Testing is a method to check whether the actual software product matche
 - What is Static Testing + examples
 
 [#Static]
-Static Testing
+[big red yellow-background]*Static Testing*
 
 
 Static Testing is a type of software testing in which software application is tested without code execution. Manual or automated reviews of code, requirement documents and document design are done in order to find the errors. The main objective of static testing is to improve the quality of software applications by finding errors in early stages of software development process.
