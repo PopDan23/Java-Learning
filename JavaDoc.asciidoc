@@ -28,6 +28,7 @@ It started in March 2023 and as a
 Java Calculator:
 2)
 3)
+4)
 
 == *3.Contant table:*
 
@@ -84,7 +85,7 @@ link:#
 
 link:#
 
-3.3) Types of testing : Dynamic vs Static;
+3.3) Dynamic vs Static Testing;
 
  - What is testing
 
@@ -362,14 +363,15 @@ class Main {
 
 image::.idea/images/abstraction.jpg[image, align=center , height= , width=300]
 
+== Types of testing
 
-=== 3.3 Types of testing : Dynamic vs Static;
+=== 3.3 Dynamic vs Static Testing;
+
 //Learning about it from https://www.guru99.com/static-dynamic-testing.html
 
 - What is testing
 
 Software Testing is a method to check whether the actual software product matches expected requirements and to ensure that software product is Defect free. It involves execution of software/system components using manual or automated tools to evaluate one or more properties of interest.
-
 
 
 - Types of testing in general
@@ -380,37 +382,40 @@ Software Testing is a method to check whether the actual software product matche
 [big red yellow-background]*Static Testing*
 
 
-Static Testing is a type of software testing in which software application is tested without code execution. Manual or automated reviews of code, requirement documents and document design are done in order to find the errors. The main objective of static testing is to improve the quality of software applications by finding errors in early stages of software development process.
+Static Testing is a type of software testing in which software application is tested without code execution.
+
+Manual or automated reviews of code, requirement documents and document design are done in order to find the errors. The main objective of static testing is to improve the quality of software applications by finding errors in early stages of software development process.
 
 Static testing involves manual or automated reviews of the documents.
 Examples of Work documents-
 
-Requirement specifications
-Design document
-Source Code
-Test Plans
-Test Cases
-Test Scripts
-Help or User document
-Web Page content
-
+|===
+| Requirement specifications
+|Design document
+|Source Code
+|Test Plans
+|Test Cases
+|Test Scripts
+|Help or User document
+|Web Page content
+|===
 
 [black green-background]*Static Testing Techniques*
 
 
-Informal Reviews: This is one of the type of review which doesn’t follow any process to find errors in the document. Under this technique, you just review the document and give informal comments on it.
+- Informal Reviews: This is one of the type of review which doesn’t follow any process to find errors in the document. Under this technique, you just review the document and give informal comments on it.
 
-Technical Reviews: A team consisting of your peers, review the technical specification of the software product and checks whether it is suitable for the project. They try to find any discrepancies in the specifications and standards followed. This review concentrates mainly on the technical documentation related to the software such as Test Strategy, Test Plan and requirement specification documents.
+- Technical Reviews: A team consisting of your peers, review the technical specification of the software product and checks whether it is suitable for the project. They try to find any discrepancies in the specifications and standards followed. This review concentrates mainly on the technical documentation related to the software such as Test Strategy, Test Plan and requirement specification documents.
 
-Walkthrough: The author of the work product explains the product to his team. Participants can ask questions if any. A meeting is led by the author. Scribe makes note of review comments
+- Walkthrough: The author of the work product explains the product to his team. Participants can ask questions if any. A meeting is led by the author. Scribe makes note of review comments
 
-Inspection: The main purpose is to find defects and meeting is led by a trained moderator. This review is a formal type of review where it follows a strict process to find the defects. Reviewers have a checklist to review the work products. They record the defect and inform the participants to rectify those errors.
+- Inspection: The main purpose is to find defects and meeting is led by a trained moderator. This review is a formal type of review where it follows a strict process to find the defects. Reviewers have a checklist to review the work products. They record the defect and inform the participants to rectify those errors.
 
-Static code Review: This is a systematic review of the software source code without executing the code. It checks the syntax of the code, coding standards, code optimization, etc. This is also termed as white box testing. This review can be done at any point during development.
-- What is Dinamic Testing + examples
+- Static code Review: This is a systematic review of the software source code without executing the code. It checks the syntax of the code, coding standards, code optimization, etc. This is also termed as white box testing. This review can be done at any point during development.
 
-- Dynamic vs Static Testing: comparasion, advantages
+*What is Dinamic Testing + examples*[text, align=center]
 
+ Dynamic vs Static Testing: comparasion, advantages
 
 [#Dynamic]
 
@@ -422,11 +427,11 @@ Dynamic testing executes the software and validates the output with the expected
 
 [white Blue-background]*Dynamic Testing Techniques*
 
-[big red black-background]*Static Testing Vs Dynamic Testing*
 
 Unit Testing: Under Unit Testing, individual units or modules are tested by the developers. It involves testing of source code by developers.
 
 Integration Testing: Individual modules are grouped together and tested by the developers. The purpose is to determine what modules are working as expected once they are integrated.
+
 System Testing: System Testing is performed on the whole system by checking whether the system or application meets the requirement specification document.
 
 
