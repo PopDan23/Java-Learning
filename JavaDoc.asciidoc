@@ -14,8 +14,9 @@
 |===
 |Version 0.1|Date 12/3/2023 |Author Popescu Dan|Change 0.01
 |1 |12.3.2023 |Dan |Initial version
-|2 |14.3.2023|Dan |Changes to the structure - added static and dynamic testing
-|3 |TBC |Dan |Final Version
+|2 |18.3.2023|Dan |Adding Static and Dynamic Testing
+|3 |18.3.2023|Dan |Added a Java Program + Link to Repo in GIT (work in progress)
+|4 |2023 |Dan |Final Version
 |===
 
 == *2.Project description:*
@@ -24,6 +25,9 @@ A project about my jorney to learn Java with aplication in Selenium for Testing 
 It started in March 2023 and as a
 
 1) Learning about Java first, after that some projects with links here:
+Java Calculator:
+2)
+3)
 
 == *3.Contant table:*
 
@@ -322,7 +326,7 @@ From the example above, it is not possible to create an object of the Animal cla
 
 [source,java]
 ----
-Animal myObj = new Animal(); // will generate an error
+ Animal myObj = new Animal(); // will generate an error
 ----
 
 To access the abstract class, it must be inherited from another class. Let's convert the Animal class we used in the Polymorphism chapter to an abstract class:
@@ -391,8 +395,7 @@ Help or User document
 Web Page content
 
 
-
-Static Testing Techniques
+[black green-background]*Static Testing Techniques*
 
 
 Informal Reviews: This is one of the type of review which doesn’t follow any process to find errors in the document. Under this technique, you just review the document and give informal comments on it.
@@ -409,8 +412,6 @@ Static code Review: This is a systematic review of the software source code with
 - Dynamic vs Static Testing: comparasion, advantages
 
 
-
-
 [#Dynamic]
 
 [big lime white-background]*Dynamic Testing*
@@ -419,7 +420,7 @@ Under Dynamic Testing, a code is executed.
 
 Dynamic testing executes the software and validates the output with the expected outcome. Dynamic testing is performed at all levels of testing and it can be either black or white box testing.
 
-[Big Chartreuse Blue-background]*Dynamic Testing Techniques*
+[white Blue-background]*Dynamic Testing Techniques*
 
 [big red black-background]*Static Testing Vs Dynamic Testing*
 
