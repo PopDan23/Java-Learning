@@ -402,7 +402,6 @@ Examples of Work documents-
 
 [black green-background]*Static Testing Techniques*
 
-
 - Informal Reviews: This is one of the type of review which doesn’t follow any process to find errors in the document. Under this technique, you just review the document and give informal comments on it.
 
 - Technical Reviews: A team consisting of your peers, review the technical specification of the software product and checks whether it is suitable for the project. They try to find any discrepancies in the specifications and standards followed. This review concentrates mainly on the technical documentation related to the software such as Test Strategy, Test Plan and requirement specification documents.
